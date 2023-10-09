@@ -108,6 +108,7 @@ function write_selection() {
     echo "webLang=$webLang" >/tmp/ipbx.lang
     echo "fopLang=$fopLang" >>/tmp/ipbx.lang
     echo "ipbxLang=$ipbxLang" >>/tmp/ipbx.lang
+    echo "selLang=$selLang" >>/tmp/ipbx.lang
 }
 
 # Loads mysql root password
